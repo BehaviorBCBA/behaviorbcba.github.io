@@ -732,7 +732,19 @@ tr.is-highlight > :last-child { box-shadow: 12px 0 var(--fill-tertiary); }
         margin-top: 8px;
       }
     </style>
-  </head>
+  
+<style>
+.section{position:relative;border-top:none;padding-inline:0;box-shadow:0 0 0 100vmax var(--band);clip-path:inset(0 -100vmax);background:var(--band)}
+#what{--band:light-dark(#eef6f5,#17201f)}
+#about{--band:light-dark(#fbf6ec,#211e18)}
+#services{--band:light-dark(#e9f1f6,#171c21)}
+#how{--band:light-dark(#f4f1f8,#1d1a22)}
+#packages{--band:light-dark(#eef6f0,#17201a)}
+#testimonials{--band:light-dark(#fdf3ee,#221b18)}
+#contact{--band:light-dark(#edf3f7,#171d22)}
+.foot{border-top:none}
+</style>
+</head>
   <body>
     <div class="page" id="top">
       <header class="nav glass" data-auto=""></header>
@@ -997,7 +1009,7 @@ tr.is-highlight > :last-child { box-shadow: 12px 0 var(--fill-tertiary); }
       <footer class="foot">
         <p>BehaviorBCBA Consulting &amp; More</p>
         <nav aria-label="Back to sections" data-auto=""></nav>
-        <a class="badge" href="https://hark.com/" rel="noopener" target="_blank"><span class="hark-mark"></span><span>built by hark</span></a>
+        
       </footer>
     </div>
     <script>/* Page behaviors for Hark's component library: the nav, the theme toggle, tables, line charts and images. style-gates: data */
